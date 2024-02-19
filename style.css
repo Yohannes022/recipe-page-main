@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 100 900;
+    width: 70%;
+    min-height: 100vh;
+    min-height: 100vh;
+    padding: 2.35rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.image {
+    margin-bottom: 2rem;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.title {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Young Serif';
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 1.45rem;
+}
+
+.desc {
+    margin-bottom: 2.55rem;
+}
+
+ul, ol {
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: .5em;
+}
+
+.prep-time p{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1.2rem;
+}
+
+.prep-time {
+    padding: 1.2rem 1.5rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    margin-bottom: 1.65rem;
+}
+
+.prep-time ul {
+    padding-left: 2rem;
+}
+
+.prep-time li {
+    margin-bottom: .7rem;
+}
+
+span {
+    font-weight: 650;
+}
+
+.ingredients,
+.instruction {
+    border-bottom: 1px solid #000;
+    margin-bottom: 1.65rem;
+}
+
+.ingredients p,
+.instruction p,
+.nutrition p:first-child {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+.ingredients li {
+    margin-bottom: .75rem;
+}
+
+.instruction li {
+    line-height: 1.5rem;
+    margin-bottom: .47rem;
+}
+.ingredients li:last-child,
+.instruction li:last-child {
+    margin-bottom: 2.1rem;
+}
+
+.nutrition {
+    margin-bottom: 0;
+}
+
+.nutrition table {
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.nutrition table tr td,
+.nutrition table tr th {
+    font-weight: 600;
+    text-align: left;
+    padding: .7rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #000;
+}
+
+.nutrition th {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition table tr:last-child {
+    border-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .recipe {
+        padding: 0 2rem;
+    }
+}
